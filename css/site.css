@@ -1,0 +1,43 @@
+*{
+    margin-top: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #947c9e;
+}
+
+img {
+    width: 500px;
+    margin-left: 20%;
+}
+
+/* RESPONSIVDADE MOBILE */
+
+@media screen and (min-width:0px) and (max-width:500px){
+    body{
+        background-color: #45384b;
+    }
+    h1{
+        color:red;
+    }
+
+    img{
+        width: 100%;
+    }
+}
+
+/* RESPONSIVDADE TABLET */
+
+@media screen and (min-width:501px) and (max-width:900px){
+    body{
+        background-color: #e6cef1;
+    }
+    h1{
+        color:rgb(43, 8, 83);
+    }
+
+    img{
+        width: 100%;
+    }
+}
